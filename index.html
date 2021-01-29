@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Desafio layout shifter</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 600px)" />
+        <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 800px)" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-container">
+                <div class="header-logo">
+                    <figure>
+                        <img class="header-logo_imagen" src="./pics/logo.png" alt="logo">
+                    </figure>
+                    <div>
+                        <h1 class="header-logo_texto">Costumbres Argentinas</h1>
+                    </div>
+                </div>
+                <nav class="header-nav">
+                    <ul class="header-nav_list">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Productos</a>
+                        </li>
+                        <li>
+                            <a href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <h1 class="section-one_title">NOSOTROS</h1>
+            <section class="section-one">
+                <div class="section-one_content">                                 
+                    <article class="content1-article article-one">
+                        <h2 class="content1-article_title title-one">CLIENTES SATISFECHOS</h2>
+                        <h3 class="content1-article_subtitle">LA ÚNICA FORMA DE HACER NEGOCIO</h3>
+                        <p class="content1-article_text">
+                            El valor de nuestra marca es conocer la tradición y costumbre de nuestra gente. Sabemos que es costumbre argentina buscar la mejor calidad al menor precio. Estudiamos el negocio, analizamos a los consumidores y creamos un producto en función de estas necesidades. Queremos ofrecer el mejor producto, con el mejor servicio en el mejor lugar.¡Sale como pan caliente!Nuestra propuesta abarca productos de panificados, facturería, pastelería seca, pastelería fresca, pizzas, sandwichs y empanadas. El concepto “producto caliente” es un sistema que ofrece durante todo el horario -desde la apertura al cierre de la tienda- medialunas y pan recién horneados
+                        </p>
+                    </article>
+                       <article class="content1-article">
+                        <h2 class="content1-article_title">NUESTROS LOCALES</h2>
+                        <h3 class="content1-article_subtitle">AUTONOMÍA Y COMODIDAD DEL SELFSERVICE</h3>
+                        <p class="content1-article_text">
+                            Con un diseño moderno, funcional y práctico, nuestros locales son un paseo para los compradores. Los clientes disponen de la comodidad y autonomías del método self-service: el usuario capta, en pocos segundos, la dinámica y disposición de la compra. ¡Cada uno elige y se lleva lo que quiere!
+                        </p>
+                    </article>
+                </article>
+                <article class="content1-article">
+                 <h2 class="content1-article_title">LOS FRANQUICIADOS</h2>
+                 <h3 class="content1-article_subtitle">CUIDAMOS Y PROTEGEMOS SU INVERSIÓN</h3>
+                 <p class="content1-article_text">
+                    Realizamos acuerdos comerciales con los principales proveedores para lograr el mejor emplazamiento de nuestros locales. Transmitimos seguridad y confianza a cada uno de nuestros franquiciados, protegemos su inversión; resguardada en materiales sólidos y durables.
+                 </p>
+             </article>
+                </div>
+                <div class="section-one_image">
+                    <figure>
+                        <img class="section1-image_1" src="./pics/imagenPrincipalMovil.png" alt="imagen movil">
+                    </figure>
+                    <figcaption><a class="link-franquicia" href="#">Franquicia 1</a></figcaption>
+                    <figure>
+                        <img class="section1-image_2" src="./pics/imagenPrincipalDesktop.png" alt="imagen desktop">
+                    </figure>
+                    <figcaption><a class="link-franquicia" href="#">Franquicia 2</a></figcaption>
+                </div>        
+            </section>
+            <h1 class="section-two_title">PRODUCTOS</h1>
+            <section class="section-two">
+                <div class="section-two_products">
+                    <div class="products">
+                        <figure class="products-figure">
+                            <img src="./pics/criollitos.png" alt="criollitos">
+                        </figure>
+                        <div class="product-content">
+                            <h1 class="products-name">CRIOLLITOS</h1>
+                            <h1 class="products-price">$50</h1>
+                            <button class="products-button">COMPRAR</button>
+                        </div>
+                    </div>
+                    <div class="products">
+                        <figure class="products-figure">
+                            <img src="./pics/medialunas.png" alt="medialunas">
+                        </figure>
+                        <div class="product-content">
+                            <h1 class="products-name">MEDIALUNAS</h1>
+                            <h1 class="products-price">$130</h1>
+                            <button class="products-button">COMPRAR</button>
+                        </div>
+                    </div>
+                    <div class="products">
+                        <figure class="products-figure">
+                            <img src="./pics/baguette.png" alt="baguette">
+                        </figure>
+                        <div class="product-content">
+                            <h1 class="products-name">BAGUETTE</h1>
+                            <h1 class="products-price">$200</h1>
+                            <button class="products-button  ">COMPRAR</button>
+                        </div>
+                    </div>
+                    <div class="products">
+                        <figure class="products-figure">
+                            <img src="./pics/pastafrola.png" alt="pastafrola">
+                        </figure>
+                        <div class="product-content">
+                            <h1 class="products-name">PASTAFROLA</h1>
+                            <h1 class="products-price">$300</h1>
+                            <button class="products-button">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <h1>THIS THE END</h1>
+        </footer>
+    </body>
+</html>
